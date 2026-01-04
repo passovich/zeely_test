@@ -9,6 +9,10 @@ class LocalizationService {
     translationLoader: NamespaceFileTranslationLoader(
       namespaces: [
         'avatars_screen',
+        'age',
+        'gender',
+        'pose',
+        'buttons'
       ],
     ),
     missingTranslationHandler: (key, locale) {
